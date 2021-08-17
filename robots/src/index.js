@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import CardList from './cardlist/CardList'
 import reportWebVitals from './reportWebVitals';
 import 'tachyons'
-import {robots} from './robots';
+import App from './app/App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <CardList robots={robots}/>
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
