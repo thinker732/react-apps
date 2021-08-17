@@ -3,6 +3,8 @@ import CardList from '../cardlist/CardList'
 import SearchBox from '../searchbox/SearchBox'
 import {robots} from '../robots';
 
+import './App.css'
+
 class App extends Component{
 
     constructor(){
@@ -27,7 +29,7 @@ class App extends Component{
 
         return(
             <div className="tc">
-                <h1>Robot React-App</h1>
+                <h1 className="f2">Robot React-App</h1>
                 <SearchBox searchChange={this.onSearchChange}/>
                 <CardList robots={filterRobots}/>
             </div>
