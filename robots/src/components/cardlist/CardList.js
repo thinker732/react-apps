@@ -2,7 +2,9 @@ import React from 'react';
 import Card from '../card/Card';
 
 const CardList=({robots})=>{
-
+    if(true){
+        throw new Error('Oh nooo');
+    }
 
     return(
 
